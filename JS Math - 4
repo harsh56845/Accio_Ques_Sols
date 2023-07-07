@@ -1,0 +1,23 @@
+// Ques Link :- https://course.acciojob.com/idle?question=dfece1a0-5fbf-4130-aad1-603422bd2e78
+function sumMaxMin(n1, n2, n3, n4, n5) {
+  // return the value
+  // Do not console.log here
+	const numbers = [n1, n2, n3, n4, n5];
+	const max = Math.max(...numbers);
+	const min = Math.min(...numbers);
+	return max + min;
+}
+
+/*Do not change the code below */
+const rl = require("readline");
+
+const reader = rl.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+reader.on("line", (line) => {
+  const [a, b, c, d, e] = line.split(" ");
+
+  console.log(sumMaxMin(a, b, c, d, e));
+});
