@@ -1,4 +1,5 @@
 // Ques Link :- https://course.acciojob.com/idle?question=9622e528-95ed-40e3-817b-52f209455545
+//  time complexity is O(n + k) , space complexity is O(k) , where k is the number of unique elements in the input array.
 import java.io.*;
 import java.util.*;
 
